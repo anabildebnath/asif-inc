@@ -19,7 +19,7 @@ const EmployeeRow = ({
   deleteEmployee,
   toggleBlockEmployee,
 }) => {
-  const [isEditing, setIsEditing] = useState(false);
+  // const [isEditing, setIsEditing] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [dialogAction, setDialogAction] = useState(null);
   const [updatedEmployee, setUpdatedEmployee] = useState({
@@ -35,7 +35,7 @@ const EmployeeRow = ({
 
   const handleSave = () => {
     updateEmployee(employee.id, updatedEmployee);
-    setIsEditing(false);
+    // setIsEditing(false);
     setDialogOpen(false);
   };
 

@@ -3,11 +3,8 @@ import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { cn } from "../lib/utils";
 import {
-  IconBrandFacebook,
   IconBrandFacebookFilled,
-  IconBrandGithub,
   IconBrandGithubFilled,
-  IconBrandGoogle,
   IconBrandGoogleFilled,
 } from "@tabler/icons-react";
 import {
@@ -161,8 +158,6 @@ const SignupFormDemo = ({ onLogin }) => {
               </AlertDialogContent>
             </AlertDialog>
           </div>
-
-     
         </div>
       </form>
     </div>
